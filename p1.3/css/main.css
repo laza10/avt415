@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+html {font-size: 100%;} /*16px*/
+
+body {
+  background-color: #B7D5AE;
+  color: #223843;
+  margin: 20px;
+  padding: 50px;
+  line-height: 1.75;
+  font-family: "Noto Sans SC"
+}
+
+h1 {
+  font-size: 4em;
+  margin-top: 0;
+}
+
+h2 {
+  color: #223843;
+  text-align: : justify;
+  font-family: "Noto Sans SC", sans-serif;
+  font-size: 20px;
+}
+
+dt {
+	font-size: 1.5em;
+	font-weight: bold;
+  margin: 50px;
+}
