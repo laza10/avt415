@@ -3,24 +3,53 @@
 html {font-size: 100%;} /*16px*/
 
 body {
-  background-color: #DBD3D8;
-  color: #223843;
-  margin: 0;
-  padding: 50px;
-  line-height: 1.75;
-  font-family: "Noto Sans SC"
+  font-family:"New Reason";
+  font-size: 22px;
+  line-height: 1.6em;
+  color: #black;
+  background-color: white;
+  margin: 45px;
 }
 
-h1 {
-  font-size: 4em;
-  margin-top: 0;
+h1{
+	font-family: 'Quiche Text';
+  font-size: 46px;
+  color: #5991E5;
+	padding-bottom: 30px;
+  text-align: center;
+  padding: 60px 40px 10px 40px;
 }
 
-h2, h3 {
-  color: #223843;
-  text-align: : justify;
-  font-family: "Noto Sans SC", sans-serif;
+h2 {
+  font-family:"Quiche Text regular";
   font-size: 18px;
+  line-height: 1.6em;
+  color: #black;
+  text-align: center;
+  background-color: white;
+}
+
+h3 {
+  font-family:"Quiche Text";
+  font-size: 23px;
+  line-height: 1.6em;
+  color: #707070;
+  text-align: justify left;
+  background-color: white;
+  width: 820px;
+  height: 200px;
+  margin: 60px 350px 1px 350px;
+  box-sizing: border-box;
+}
+
+h4 {
+  font-family:"New Reason Semibold";
+  font-size: 28px;
+  line-height: 1.6em;
+  color: #5991E5;
+  text-align: justify left;
+  background-color: white;
+  margin: 45px;
 }
 
 dt {
