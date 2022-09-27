@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
   body {
-    background-color: white;
+    background-color: #EBE1D0;
     margin: 0;
     font-size: 10px;
   }
@@ -13,14 +13,22 @@
   }
 
   p {
-    text-transform: uppercase;
-    color: white;
+  text-transform: uppercase;
 	font-size: 3rem;
+  font-family:"New Reason";
+  font-size: 22px;
+  line-height: 1.6em;
+  color: #black;
+  padding-left: 60px;
+  padding-right: 60px;
   }
- 
+
 
   img {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+
   }
 
 
@@ -31,22 +39,24 @@
 
 /* tell browser to do the followings when screen is at and narrower than 768px */
   @media only screen and (max-width: 768px) {
-	  
+
     body {
-      background-color: white;
+      background-color: #A49D8F;
     }
-	  
+
 	#container {
       margin-top: 20vh;
     }
-	   
+
     p {
+    text-transform:uppercase;
     color: #b13057;
+    letter-spacing: 5px;
     }
-	  
+
 	#cursive {
   	}
-	  
+
     .mobile-only {
       display: block;
     }
