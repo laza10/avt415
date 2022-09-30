@@ -10,24 +10,26 @@
 	  width:90%;
 	  margin-top: 40vh;
 	  margin-left: 10vh;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   p {
   text-transform: uppercase;
-	font-size: 3rem;
-  font-family:"New Reason";
-  font-size: 22px;
-  line-height: 1.6em;
+	font-size: 2.8rem;
+  font-family: "Yeseva One", "regular";
+  text-align: center;
   color: #black;
-  padding-left: 60px;
-  padding-right: 60px;
+  margin-bottom: 0;
   }
-
 
   img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
 
   }
 
@@ -52,9 +54,15 @@
     text-transform:uppercase;
     color: #b13057;
     letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 2em;
+    margin-left: -6.5;
     }
 
 	#cursive {
+    font-family: "Yeseva One";
+    text-transform: none;
   	}
 
     .mobile-only {
